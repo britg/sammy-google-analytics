@@ -1,11 +1,9 @@
 # Sammy.js Google Analytics Plugin
 
-## Requires Sammy
-[http://code.quirkey.com/sammy](http://code.quirkey.com/sammy)
 
 ## Description
 
-A small plugin that enable Google Analytics tracking for your Sammy powered App.
+A small plugin that enables Google Analytics tracking for your Sammy powered App.
 
 ## Installation
 
@@ -35,6 +33,7 @@ If you have routes that you do not want to track, simply call "noTrack" within t
 
 ## Dependencies
 
+Sammy [http://code.quirkey.com/sammy](http://code.quirkey.com/sammy)
 Sammy requires jQuery >= 1.3.2
 Get it from: [http://jquery.com](http://jquery.com)
 

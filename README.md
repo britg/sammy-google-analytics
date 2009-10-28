@@ -30,6 +30,10 @@ If you have routes that you do not want to track, simply call "noTrack" within t
       });
     }});
 
+## Example
+
+[http://britg.github.com/sammy-google-analytics] Example
+
 
 ## Dependencies
 

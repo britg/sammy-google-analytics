@@ -12,7 +12,9 @@ Include it in your document AFTER sammy.
 
 ## Usage
 
-Simply add the plugin to your Sammy App and the plugin will automatically track all of your routes in Google Analytics.  They will appear as page views to the route's path.
+Install Google Analytics to your site as you normally would.  Be sure that the 'pageTracker' global variable exists.
+
+Then, simply add the plugin to your Sammy App and it will automatically track all of your routes in Google Analytics.  They will appear as page views to the route's path.
 
     $.sammy(function() { with(this) {
       use(Sammy.GoogleAnalytics)

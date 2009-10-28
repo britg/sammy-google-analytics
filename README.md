@@ -32,12 +32,13 @@ If you have routes that you do not want to track, simply call "noTrack" within t
 
 ## Example
 
-[http://britg.github.com/sammy-google-analytics] Example
+[http://britg.github.com/sammy-google-analytics](Example)
 
 
 ## Dependencies
 
 Sammy [http://code.quirkey.com/sammy](http://code.quirkey.com/sammy)
+
 Sammy requires jQuery >= 1.3.2
 Get it from: [http://jquery.com](http://jquery.com)
 

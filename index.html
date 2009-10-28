@@ -9,6 +9,11 @@
       $(function() {
         var app = $.sammy(function() {
           this.use(Sammy.GoogleAnalytics);
+
+          this.get('#/home', function() {
+            this.noTrack();
+
+          });
           
           this.get('#/foo', function() {
           });
@@ -21,7 +26,7 @@
           
         });
 
-        app.run();
+        app.run('#/home');
       });
     </script>
   </head>
@@ -31,6 +36,7 @@
     <p>Click the links below to fire various routes.  Watch your firebug net panel or equivalent to see the Google Analytics tracking.</p>
 
     <ul>
+      <li><a href="#/home">Home</a></li>
       <li><a href="#/foo">Foo</a></li>
       <li><a href="#/bar">Bar</a></li>
       <li><a href="#/yay/awesome/howdy">Yay Awesome Howdy</a></li>
